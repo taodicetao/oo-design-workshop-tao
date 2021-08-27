@@ -8,8 +8,5 @@ public class HelloWorldTest {
         HelloWorld helloWorld = new HelloWorld();
         String actualResult = helloWorld.greeting("tao");
         assertEquals("Hello tao", actualResult);
-
-
-
     }
 }
